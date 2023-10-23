@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TS</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center; /* Center text in the container */
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .btn-circle {
+            width: 190px;
+            height: 190px;
+            padding: 10px 16px;
+            font-size: 24px;
+            line-height: 1.33;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-right: 30px;
+            transition: background-color 0.3s ease; /* Added transition for smooth color change */
+        }
+
+        .btn-circle:hover {
+            background-color: maroon; /* Color change on hover */
+        }
+
+        .btn-circle i {
+            font-size: 50px;
+            color: black;
+            border: 2px solid black;
+            border-radius: 50%;
+            padding: 40px;
+        }
+
+        .btn-circle p {
+            margin-top: 10px;
+            color: black;
+        }
+
+        /* New Section Styles */
+        .course-section {
+            margin-top: 40px;
+            background-color: beige; /* Added beige background color */
+            padding: 20px; /* Added padding for better spacing */
+            border-radius: 10px; /* Added border-radius for rounded corners */
+        }
+
+        .course-title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .subject-box {
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- header section starts  -->
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>TUTOR</span>SYNC</a>
+
+    
+
+</header>
+<!-- header section ends -->
+
+<!-- home section starts  -->
+<section class="home" id="home"> 
+    <div class="container">
+        <h1>Welcome to TutorSync!</h1>
+        <div class="btn-container">
+            <!--insert keni link naning login ketang teacher-->
+            <a href="login.html" class="btn btn-circle btn-teacher">
+                <i class="fas fa-user-tie"></i>
+                <p>Teacher</p>
+            </a>
+            <!--insert keni link naning login ketang student-->
+            <a href="student_login.html" class="btn btn-circle btn-student">
+                <i class="fas fa-user-graduate"></i>
+                <p>Student</p>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- home section ends -->
+
+<!-- footer section  -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>email</h3>
+            <p>malonzoshanenicole@gmail.com</p>
+            <p>manalangmichelle@gmail.com</p>
+            <p>balagtaselaine@gmail.com</p>
+        </div>
+    </div>
+</section>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- custom js file link  -->
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>
